@@ -7,15 +7,10 @@
 
 library(shiny)
 library(shinyapps)
+library(devtools)
 
+shinyapps::setAccountInfo(name='s31bis', token='EBC0190F0B646EC5B4E4618700221EC7', secret='muGlXfJ/uPzhOuk5CBTvRrEboTVP3it9MolJcXwm')
 
-shinyapps::setAccountInfo(
-        name="iamsoubi", 
-        token="E1F2F6EFFC24B10D8D5C2ACB1661A503", 
-        secret="/UGQRJnrZfbzhFOQlo1IY6tbw0LJhMksYEMi6IbJ")
-
-
-library(shiny) 
 shinyUI(
         fluidPage(
                 # Application title
@@ -53,3 +48,4 @@ shinyUI(
                 
         )   
 )
+
