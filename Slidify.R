@@ -1,0 +1,7 @@
+install.packages("devtools")
+library(devtools)
+install_github('slidify','ramnathv')
+install_github('slidifyLibraries', 'ramnathv')
+library(slidify)
+getwd()
+publish(user = "SOUGATABISWAS", repo = "SOUGATADATA2014")

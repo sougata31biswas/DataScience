@@ -5,6 +5,16 @@
 # http://shiny.rstudio.com
 #
 
+library(shiny)
+library(shinyapps)
+
+
+shinyapps::setAccountInfo(
+        name="iamsoubi", 
+        token="E1F2F6EFFC24B10D8D5C2ACB1661A503", 
+        secret="/UGQRJnrZfbzhFOQlo1IY6tbw0LJhMksYEMi6IbJ")
+
+
 library(shiny) 
 shinyUI(
         fluidPage(
